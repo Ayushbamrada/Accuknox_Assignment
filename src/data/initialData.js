@@ -2,14 +2,14 @@ const initialData = [
   {
     name: "CSPM Executive Dashboard",
     widgets: [
-      { id: "1", name: "Widget One", text: "This is widget one" },
+      { id: "1", name: "Cloud Accounts", text: "This is widget one" },
       { id: "2", name: "Widget Two", text: "This is widget two" }
     ]
   },
   {
     name: "Marketing",
     widgets: [
-      { id: "3", name: "Leads", text: "Lead data and conversion rate" }
+      { id: "3", name: "risk assessment", text: "Lead data and conversion rate" }
     ]
   },
   {
@@ -29,7 +29,7 @@ const initialData = [
   {
     name: "Ticket Summary",
     widgets: [
-        { id: "8", name: "Open Tickets", text: "List of open tickets" },
+        { id: "8", name: "security issues", text: "List of open tickets" },
         { id: "9", name: "Closed Tickets", text: "List of closed tickets" }
     ]
   }

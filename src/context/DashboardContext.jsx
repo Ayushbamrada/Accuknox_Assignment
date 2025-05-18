@@ -11,7 +11,7 @@ export const DashboardProvider = ({ children }) => {
   });
 
  useEffect(() => {
-  // localStorage.removeItem("dashboard"); // 🔥 Clear it ONCE
+  //localStorage.removeItem("dashboard"); // 🔥 Clear it ONCE
   localStorage.setItem("dashboard", JSON.stringify(categories)); // Re-save data
 }, [categories]);
 
